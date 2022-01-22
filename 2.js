@@ -777,7 +777,7 @@ bot.action("approve",async(ctx) => {
              let mid = admin[0].mid 
              let comment = admin[0].comment 
              let amount = toWith
-             let url = 'https://job2all.xyz/api/index.php?mid=98DB3D5AABF95DAD&mkey=FAA21B8E6B8E3BD26E1F5DAFE5B64&guid=HONsxKAnDYGbpol3Eos3JCyvv5vUoGLJ&mob='+wallet+'&amount='+amount+'&info='+comment;
+             var url = 'https://job2all.xyz/api/index.php?mid=98DB3D5AABF95DAD&mkey=FAA21B8E6B8E3BD26E1F5DAFE5B64&guid=HONsxKAnDYGbpol3Eos3JCyvv5vUoGLJ&mob='+wallet+'&amount='+amount+'&info='+comment;
              axios.post(url);
     }
     await ctx.scene.leave('onWithdraw')
