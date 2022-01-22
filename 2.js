@@ -5,7 +5,7 @@ const axios = require('axios');
 const { enter, leave } = Stage
 const stage = new Stage()
 const rateLimit = require('telegraf-ratelimit');
-var bot_token = '5231378173:AAGREVwNC4Gxun3NFwUjNwI3Jm9U_D_9i-E'; //YOUR BOT TOKEN HERE
+var bot_token = '5299685658:AAEh439ePTv6BM6t5nAPkvNvtBOMCQ8I1dw'; //YOUR BOT TOKEN HERE
 var bot_name = 'RupeeCash_Bot'; // Bot Name
 const bot = new Telegraf(bot_token);
 let db;
