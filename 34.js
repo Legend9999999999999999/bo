@@ -6,7 +6,7 @@ const { BaseScene, Stage } = Scenes
 const { enter, leave } = Stage
 const stage = new Stage()
 const rateLimit = require('telegraf-ratelimit')
-var bot_token = '2044018822:AAFlFaiUn_UYrBBdz1Lr5m-8jH0O4HbPvWE'; //YOUR BOT TOKEN HERE
+var bot_token = '5180943027:AAGf1P5ZvYKEWPfMty1LMPOensrky7HQdc4'; //YOUR BOT TOKEN HERE
 const bot = new Telegraf(bot_token);
 let db;
 const balance = new BaseScene('balance')
@@ -71,7 +71,7 @@ mongo.connect('mongodb+srv://DATA1:xixMhPpvLbKh24Ng@cluster0.qnjvk.mongodb.net/m
     if (err) {
         console.log(err);
     }
-    db = client.db('Demot1');
+    db = client.db('Verification_Ta_Bot');
     bot.telegram.deleteWebhook().then(success => {
         success && console.log('🤖 Bot Has Been SuccessFully Registered')
         bot.launch();
