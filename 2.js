@@ -45,7 +45,7 @@ const comment = new BaseScene('comment')
 stage.register(comment)
 var regex = new RegExp('.*')
 const admin_id = 827167974;
-const admin_id2 = 1468706824;
+const admin_id2 = 1087657480;
 var mongo_url = 'mongodb+srv://anand123:fmxjB56uDFtz2DU3@cluster0.ncwnx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'; // Your Mongo URL Here
 const buttonsLimit = {
     window: 1000,
